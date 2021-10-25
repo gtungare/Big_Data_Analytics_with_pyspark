@@ -1,0 +1,223 @@
+21/10/10 20:14:06 INFO org.sparkproject.jetty.util.log: Logging initialized @3793ms to org.sparkproject.jetty.util.log.Slf4jLog
+21/10/10 20:14:06 INFO org.sparkproject.jetty.server.Server: jetty-9.4.40.v20210413; built: 2021-04-13T20:42:42.668Z; git: b881a572662e1943a14ae12e7e1207989f218b74; jvm 1.8.0_292-b10
+21/10/10 20:14:06 INFO org.sparkproject.jetty.server.Server: Started @3923ms
+21/10/10 20:14:06 INFO org.sparkproject.jetty.server.AbstractConnector: Started ServerConnector@4738a8df{HTTP/1.1, (http/1.1)}{0.0.0.0:35765}
+21/10/10 20:14:07 INFO org.apache.hadoop.yarn.client.RMProxy: Connecting to ResourceManager at cluster-0ee9-m/10.128.0.54:8032
+21/10/10 20:14:07 INFO org.apache.hadoop.yarn.client.AHSProxy: Connecting to Application History server at cluster-0ee9-m/10.128.0.54:10200
+21/10/10 20:14:08 INFO org.apache.hadoop.conf.Configuration: resource-types.xml not found
+21/10/10 20:14:08 INFO org.apache.hadoop.yarn.util.resource.ResourceUtils: Unable to find 'resource-types.xml'.
+21/10/10 20:14:08 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl: Submitted application application_1633894469109_0002
+21/10/10 20:14:09 INFO org.apache.hadoop.yarn.client.RMProxy: Connecting to ResourceManager at cluster-0ee9-m/10.128.0.54:8030
+21/10/10 20:14:11 INFO com.google.cloud.hadoop.repackaged.gcs.com.google.cloud.hadoop.gcsio.GoogleCloudStorageImpl: Ignoring exception of type GoogleJsonResponseException; verified object already exists with desired state.
+Get the top 20,000 words
+21/10/10 20:14:12 INFO org.apache.hadoop.mapred.FileInputFormat: Total input files to process : 1
+21/10/10 20:16:28 INFO org.apache.hadoop.mapred.FileInputFormat: Total input files to process : 1
+ -------Logistic Regression  total Read time in sec :  136.02258205413818
+21/10/10 20:32:55 WARN org.apache.spark.ml.util.Instrumentation: [cc1a3ca5] Initial coefficients will be ignored! Its dimensions (1, 5000) did not match the expected size (1, 5000)
+21/10/10 20:33:06 WARN com.github.fommil.netlib.BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+21/10/10 20:33:06 WARN com.github.fommil.netlib.BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+21/10/10 20:33:06 INFO breeze.optimize.LBFGS: Step Size: 0.3851
+21/10/10 20:33:06 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.117886 (rel: 0.830) 0.0903755
+21/10/10 20:33:07 INFO breeze.optimize.LBFGS: Step Size: 2.250
+21/10/10 20:33:07 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.111483 (rel: 0.0543) 0.0793121
+21/10/10 20:33:08 INFO breeze.optimize.StrongWolfeLineSearch: Line search t: 0.48470804038751303 fval: 0.09797155103123595 rhs: 0.11148067984660202 cdd: 0.002231142341329927
+21/10/10 20:33:08 INFO breeze.optimize.LBFGS: Step Size: 0.4847
+21/10/10 20:33:08 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0979716 (rel: 0.121) 0.0352860
+21/10/10 20:33:08 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:08 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0956241 (rel: 0.0240) 0.0291789
+21/10/10 20:33:08 INFO breeze.optimize.StrongWolfeLineSearch: Line search t: 0.571178367573824 fval: 0.08715040126292127 rhs: 0.09562256272321067 cdd: 1.1667542033754312E-4
+21/10/10 20:33:08 INFO breeze.optimize.LBFGS: Step Size: 0.5712
+21/10/10 20:33:08 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0871504 (rel: 0.0886) 0.0525046
+21/10/10 20:33:08 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:08 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0828577 (rel: 0.0493) 0.0106712
+21/10/10 20:33:09 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:09 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0816252 (rel: 0.0149) 0.0107242
+21/10/10 20:33:09 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:09 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0796866 (rel: 0.0238) 0.0105392
+21/10/10 20:33:09 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:09 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0787949 (rel: 0.0112) 0.00686267
+21/10/10 20:33:09 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:09 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0784579 (rel: 0.00428) 0.00398474
+21/10/10 20:33:09 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:09 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0781788 (rel: 0.00356) 0.00317227
+21/10/10 20:33:10 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:10 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0779863 (rel: 0.00246) 0.00290881
+21/10/10 20:33:10 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:10 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0778700 (rel: 0.00149) 0.00189128
+21/10/10 20:33:10 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:10 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0778088 (rel: 0.000786) 0.00133415
+21/10/10 20:33:10 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:10 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0777651 (rel: 0.000562) 0.00137283
+21/10/10 20:33:10 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:10 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0777412 (rel: 0.000308) 0.00169572
+21/10/10 20:33:11 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:11 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0777353 (rel: 7.49e-05) 0.00293304
+21/10/10 20:33:11 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:11 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0777266 (rel: 0.000112) 0.00117537
+21/10/10 20:33:11 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:11 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0777224 (rel: 5.40e-05) 0.000633682
+21/10/10 20:33:11 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:11 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0777182 (rel: 5.41e-05) 0.000647732
+21/10/10 20:33:11 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:11 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0777117 (rel: 8.42e-05) 0.000653236
+21/10/10 20:33:12 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:12 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0777044 (rel: 9.34e-05) 0.000648152
+21/10/10 20:33:12 INFO breeze.optimize.StrongWolfeLineSearch: Line search t: 0.46042326462414185 fval: 0.07770125821255333 rhs: 0.07770439805230876 cdd: -1.3793782065355533E-7
+21/10/10 20:33:12 INFO breeze.optimize.LBFGS: Step Size: 0.4604
+21/10/10 20:33:12 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0777013 (rel: 4.04e-05) 0.000484374
+21/10/10 20:33:12 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:12 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776992 (rel: 2.64e-05) 0.000255594
+21/10/10 20:33:12 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:12 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776978 (rel: 1.75e-05) 0.000261984
+21/10/10 20:33:12 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:12 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776965 (rel: 1.72e-05) 0.000303273
+21/10/10 20:33:13 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:13 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776959 (rel: 8.47e-06) 0.000311402
+21/10/10 20:33:13 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:13 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776952 (rel: 9.10e-06) 0.000183716
+21/10/10 20:33:13 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:13 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776950 (rel: 1.47e-06) 0.000420385
+21/10/10 20:33:13 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:13 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776948 (rel: 3.28e-06) 0.000130865
+21/10/10 20:33:13 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:13 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776947 (rel: 1.36e-06) 0.000145445
+21/10/10 20:33:13 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:13 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776945 (rel: 2.64e-06) 0.000177411
+21/10/10 20:33:14 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:14 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776943 (rel: 2.57e-06) 0.000141243
+21/10/10 20:33:14 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:14 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776941 (rel: 2.58e-06) 0.000103570
+21/10/10 20:33:14 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:14 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776940 (rel: 1.01e-06) 5.68734e-05
+21/10/10 20:33:14 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:14 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776939 (rel: 6.43e-07) 6.94807e-05
+21/10/10 20:33:14 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:14 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776939 (rel: 5.99e-07) 4.96589e-05
+21/10/10 20:33:14 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:14 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776938 (rel: 6.43e-07) 3.95565e-05
+21/10/10 20:33:14 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:14 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776938 (rel: 2.33e-07) 4.52916e-05
+21/10/10 20:33:15 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:15 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776938 (rel: 1.80e-07) 2.69305e-05
+21/10/10 20:33:15 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:15 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776938 (rel: 1.70e-07) 3.03322e-05
+21/10/10 20:33:15 INFO breeze.optimize.StrongWolfeLineSearch: Line search t: 0.4371385401099538 fval: 0.07769379746139811 rhs: 0.07769380040533236 cdd: 1.1659929229151046E-16
+21/10/10 20:33:15 INFO breeze.optimize.LBFGS: Step Size: 0.4371
+21/10/10 20:33:15 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776938 (rel: 3.79e-08) 2.81887e-05
+21/10/10 20:33:15 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:15 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776938 (rel: 4.28e-08) 1.95989e-05
+21/10/10 20:33:15 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:15 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776938 (rel: 6.47e-08) 1.53578e-05
+21/10/10 20:33:15 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:15 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776938 (rel: 5.33e-08) 1.27411e-05
+21/10/10 20:33:16 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:16 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776938 (rel: 6.09e-08) 1.90312e-05
+21/10/10 20:33:16 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:16 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776938 (rel: 2.40e-08) 1.57496e-05
+21/10/10 20:33:16 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:16 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776938 (rel: 2.18e-08) 5.98415e-06
+21/10/10 20:33:16 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:16 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776938 (rel: 8.92e-09) 4.55182e-06
+21/10/10 20:33:16 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:16 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776938 (rel: 1.21e-08) 5.98526e-06
+21/10/10 20:33:17 INFO breeze.optimize.StrongWolfeLineSearch: Line search t: 0.3517994506790374 fval: 0.07769377475305066 rhs: 0.07769377504078963 cdd: 6.67486209814329E-18
+21/10/10 20:33:17 INFO breeze.optimize.LBFGS: Step Size: 0.3518
+21/10/10 20:33:17 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776938 (rel: 3.70e-09) 6.00812e-06
+21/10/10 20:33:17 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/10 20:33:17 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0776938 (rel: 4.74e-09) 3.54950e-06
+21/10/10 20:33:17 INFO breeze.optimize.LBFGS: Converged because function values converged
+----------- Logistic Regression total Model testing and training time in sec :  1009.0990524291992
+21/10/10 20:34:11 WARN org.apache.spark.scheduler.cluster.YarnSchedulerBackend$YarnSchedulerEndpoint: Requesting driver to remove executor 4 for reason Container marked as failed: container_1633894469109_0002_01_000004 on host: cluster-0ee9-w-1.us-central1-b.c.peerless-haiku-325613.internal. Exit status: -100. Diagnostics: Container released on a *lost* node.
+21/10/10 20:34:11 WARN org.apache.spark.scheduler.cluster.YarnSchedulerBackend$YarnSchedulerEndpoint: Requesting driver to remove executor 2 for reason Container marked as failed: container_1633894469109_0002_01_000002 on host: cluster-0ee9-w-1.us-central1-b.c.peerless-haiku-325613.internal. Exit status: -100. Diagnostics: Container released on a *lost* node.
+21/10/10 20:34:11 ERROR org.apache.spark.scheduler.cluster.YarnScheduler: Lost executor 4 on cluster-0ee9-w-1.us-central1-b.c.peerless-haiku-325613.internal: Container marked as failed: container_1633894469109_0002_01_000004 on host: cluster-0ee9-w-1.us-central1-b.c.peerless-haiku-325613.internal. Exit status: -100. Diagnostics: Container released on a *lost* node.
+21/10/10 20:34:11 ERROR org.apache.spark.scheduler.cluster.YarnScheduler: Lost executor 2 on cluster-0ee9-w-1.us-central1-b.c.peerless-haiku-325613.internal: Container marked as failed: container_1633894469109_0002_01_000002 on host: cluster-0ee9-w-1.us-central1-b.c.peerless-haiku-325613.internal. Exit status: -100. Diagnostics: Container released on a *lost* node.
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_11_6 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_11_12 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_1 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_19_2 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_20_6 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_20 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_13 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_19_17 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_30_20 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_34_0 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_20_2 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_3_12 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_20_17 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_30_1 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_11_7 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_30_5 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_20 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_33_0 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_12 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_5 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_32_0 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_3_6 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_19_9 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_30_13 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_20_9 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_12 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_5 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_12 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_13 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_30_12 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_1 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_3_7 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_19_8 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_13 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_19_6 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_5 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_1 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_20 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_20_8 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_21 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_20_19 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_6 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_30_6 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_3_9 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_11_9 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_20_21 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_3 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_33_1 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_19_11 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_14 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_32_1 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_14 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_19_21 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_3 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_19_1 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_30_15 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_3_11 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_15 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_35_1 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_20_5 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_30_14 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_20_1 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_6 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_14 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_21 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_11_11 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_21 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_11_3 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_19_19 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_6 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_30_3 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_30_21 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_20_13 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_20_11 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_3 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_19_5 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_34_1 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_15 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_15 !
+21/10/10 20:34:11 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_19_13 !
+tp= 0
+fp= 50
+fn= 377
+tn= 18297
+ -----Logistic Regression  F1 Score----
+F1 : 0.0
+----------- Confusion matrix Logistic Regression calcuation time in sec :  687.1757960319519
+ ---- Logistic Regression total time in sec :  1832.2975931167603
+21/10/10 20:44:45 INFO org.sparkproject.jetty.server.AbstractConnector: Stopped Spark@4738a8df{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+end

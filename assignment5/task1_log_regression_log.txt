@@ -1,0 +1,106 @@
+21/10/08 16:16:13 INFO org.sparkproject.jetty.util.log: Logging initialized @4055ms to org.sparkproject.jetty.util.log.Slf4jLog
+21/10/08 16:16:13 INFO org.sparkproject.jetty.server.Server: jetty-9.4.40.v20210413; built: 2021-04-13T20:42:42.668Z; git: b881a572662e1943a14ae12e7e1207989f218b74; jvm 1.8.0_292-b10
+21/10/08 16:16:13 INFO org.sparkproject.jetty.server.Server: Started @4184ms
+21/10/08 16:16:13 INFO org.sparkproject.jetty.server.AbstractConnector: Started ServerConnector@6c93fdcf{HTTP/1.1, (http/1.1)}{0.0.0.0:35499}
+21/10/08 16:16:14 INFO org.apache.hadoop.yarn.client.RMProxy: Connecting to ResourceManager at cluster-4dad-m/10.128.0.41:8032
+21/10/08 16:16:14 INFO org.apache.hadoop.yarn.client.AHSProxy: Connecting to Application History server at cluster-4dad-m/10.128.0.41:10200
+21/10/08 16:16:15 INFO org.apache.hadoop.conf.Configuration: resource-types.xml not found
+21/10/08 16:16:15 INFO org.apache.hadoop.yarn.util.resource.ResourceUtils: Unable to find 'resource-types.xml'.
+21/10/08 16:16:15 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl: Submitted application application_1633704875317_0003
+21/10/08 16:16:16 INFO org.apache.hadoop.yarn.client.RMProxy: Connecting to ResourceManager at cluster-4dad-m/10.128.0.41:8030
+21/10/08 16:16:18 INFO com.google.cloud.hadoop.repackaged.gcs.com.google.cloud.hadoop.gcsio.GoogleCloudStorageImpl: Ignoring exception of type GoogleJsonResponseException; verified object already exists with desired state.
+Get the top 20,000 words
+21/10/08 16:16:19 WARN org.apache.hadoop.util.concurrent.ExecutorHelper: Thread (Thread[GetFileInfo #1,5,main]) interrupted: 
+java.lang.InterruptedException
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:510)
+	at com.google.common.util.concurrent.FluentFuture$TrustedFuture.get(FluentFuture.java:88)
+	at org.apache.hadoop.util.concurrent.ExecutorHelper.logThrowableFromAfterExecute(ExecutorHelper.java:48)
+	at org.apache.hadoop.util.concurrent.HadoopThreadPoolExecutor.afterExecute(HadoopThreadPoolExecutor.java:90)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+21/10/08 16:16:19 WARN org.apache.hadoop.util.concurrent.ExecutorHelper: Thread (Thread[GetFileInfo #0,5,main]) interrupted: 
+java.lang.InterruptedException
+	at com.google.common.util.concurrent.AbstractFuture.get(AbstractFuture.java:510)
+	at com.google.common.util.concurrent.FluentFuture$TrustedFuture.get(FluentFuture.java:88)
+	at org.apache.hadoop.util.concurrent.ExecutorHelper.logThrowableFromAfterExecute(ExecutorHelper.java:48)
+	at org.apache.hadoop.util.concurrent.HadoopThreadPoolExecutor.afterExecute(HadoopThreadPoolExecutor.java:90)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1157)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+21/10/08 16:16:19 INFO org.apache.hadoop.mapred.FileInputFormat: Total input files to process : 1
+21/10/08 16:18:41 INFO org.apache.hadoop.mapred.FileInputFormat: Total input files to process : 1
+ -------Logistic Regression  total Read time in sec :  141.7999882698059
+21/10/08 16:37:11 WARN org.apache.spark.ml.util.Instrumentation: [8229754f] Initial coefficients will be ignored! Its dimensions (1, 20000) did not match the expected size (1, 20000)
+21/10/08 16:37:59 WARN com.github.fommil.netlib.BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+21/10/08 16:37:59 WARN com.github.fommil.netlib.BLAS: Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+21/10/08 16:37:59 INFO breeze.optimize.LBFGS: Step Size: 0.1096
+21/10/08 16:37:59 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.358287 (rel: 0.483) 0.834538
+21/10/08 16:38:01 INFO breeze.optimize.LBFGS: Step Size: 5.063
+21/10/08 16:38:01 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0391779 (rel: 0.891) 0.415741
+21/10/08 16:38:01 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:01 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.0154027 (rel: 0.607) 0.156897
+21/10/08 16:38:01 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:01 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.00477913 (rel: 0.690) 0.0598677
+21/10/08 16:38:01 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:01 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.00208622 (rel: 0.563) 0.0213900
+21/10/08 16:38:02 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:02 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.00143691 (rel: 0.311) 0.0116634
+21/10/08 16:38:02 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:02 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.000976455 (rel: 0.320) 0.00961917
+21/10/08 16:38:02 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:02 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.000409679 (rel: 0.580) 0.00468804
+21/10/08 16:38:02 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:02 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.000187679 (rel: 0.542) 0.00207263
+21/10/08 16:38:03 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:03 INFO breeze.optimize.LBFGS: Val and Grad Norm: 0.000101614 (rel: 0.459) 0.000911931
+21/10/08 16:38:03 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:03 INFO breeze.optimize.LBFGS: Val and Grad Norm: 5.94530e-05 (rel: 0.415) 0.000430587
+21/10/08 16:38:03 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:03 INFO breeze.optimize.LBFGS: Val and Grad Norm: 3.48855e-05 (rel: 0.413) 0.000278367
+21/10/08 16:38:03 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:03 INFO breeze.optimize.LBFGS: Val and Grad Norm: 1.77318e-05 (rel: 0.492) 0.000132153
+21/10/08 16:38:04 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:04 INFO breeze.optimize.LBFGS: Val and Grad Norm: 9.93295e-06 (rel: 0.440) 6.92272e-05
+21/10/08 16:38:04 INFO breeze.optimize.StrongWolfeLineSearch: Line search t: 0.7583225146125223 fval: 5.853719003934433E-6 rhs: 9.932343966705908E-6 cdd: -1.6975652518803234E-6
+21/10/08 16:38:04 INFO breeze.optimize.LBFGS: Step Size: 0.7583
+21/10/08 16:38:04 INFO breeze.optimize.LBFGS: Val and Grad Norm: 5.85372e-06 (rel: 0.411) 0.000126063
+21/10/08 16:38:04 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:04 INFO breeze.optimize.LBFGS: Val and Grad Norm: 2.13240e-06 (rel: 0.636) 1.47142e-05
+21/10/08 16:38:04 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:04 INFO breeze.optimize.LBFGS: Val and Grad Norm: 1.37567e-06 (rel: 0.355) 9.38564e-06
+21/10/08 16:38:05 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:05 INFO breeze.optimize.LBFGS: Val and Grad Norm: 6.61209e-07 (rel: 0.519) 7.63594e-06
+21/10/08 16:38:05 INFO breeze.optimize.StrongWolfeLineSearch: Line search t: 0.4558277373121016 fval: 4.441091034162869E-7 rhs: 6.611507481922177E-7 cdd: 5.038057065460768E-8
+21/10/08 16:38:05 INFO breeze.optimize.LBFGS: Step Size: 0.4558
+21/10/08 16:38:05 INFO breeze.optimize.LBFGS: Val and Grad Norm: 4.44109e-07 (rel: 0.313) 7.24338e-06
+21/10/08 16:38:05 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:05 INFO breeze.optimize.LBFGS: Val and Grad Norm: 2.24571e-07 (rel: 0.317) 2.40698e-06
+21/10/08 16:38:05 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:05 INFO breeze.optimize.LBFGS: Val and Grad Norm: 1.24165e-07 (rel: 0.145) 1.11888e-06
+21/10/08 16:38:06 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:06 INFO breeze.optimize.LBFGS: Val and Grad Norm: 6.19211e-08 (rel: 0.0898) 4.94430e-07
+21/10/08 16:38:06 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:06 INFO breeze.optimize.LBFGS: Val and Grad Norm: 3.17536e-08 (rel: 0.0435) 2.32069e-07
+21/10/08 16:38:06 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:06 INFO breeze.optimize.LBFGS: Val and Grad Norm: 1.59986e-08 (rel: 0.0227) 1.11963e-07
+21/10/08 16:38:06 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:06 INFO breeze.optimize.LBFGS: Val and Grad Norm: 8.07537e-09 (rel: 0.0114) 5.69759e-08
+21/10/08 16:38:06 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:06 INFO breeze.optimize.LBFGS: Val and Grad Norm: 4.00161e-09 (rel: 0.00588) 4.31267e-08
+21/10/08 16:38:07 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:07 INFO breeze.optimize.LBFGS: Val and Grad Norm: 1.58994e-09 (rel: 0.00348) 1.09524e-08
+21/10/08 16:38:07 INFO breeze.optimize.LBFGS: Step Size: 1.000
+21/10/08 16:38:07 INFO breeze.optimize.LBFGS: Val and Grad Norm: 9.60247e-10 (rel: 0.000908) 6.77243e-09
+21/10/08 16:38:07 INFO breeze.optimize.LBFGS: Converged because gradient converged
+----------- Logistic Regression total Model testing and training time in sec :  1166.768543958664
+tp= 375
+fp= 1
+fn= 2
+tn= 18346
+ -----Logistic Regression  F1 Score----
+F1 : 0.9960159362549801
+----------- Confusion matrix Logistic Regression calcuation time in sec :  161.73884677886963
+ ---- Logistic Regression total time in sec :  1470.3074851036072
+21/10/08 16:40:49 INFO org.sparkproject.jetty.server.AbstractConnector: Stopped Spark@6c93fdcf{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+end

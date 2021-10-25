@@ -1,0 +1,125 @@
+21/10/10 19:36:19 INFO org.sparkproject.jetty.util.log: Logging initialized @8007ms to org.sparkproject.jetty.util.log.Slf4jLog
+21/10/10 19:36:19 INFO org.sparkproject.jetty.server.Server: jetty-9.4.40.v20210413; built: 2021-04-13T20:42:42.668Z; git: b881a572662e1943a14ae12e7e1207989f218b74; jvm 1.8.0_292-b10
+21/10/10 19:36:19 INFO org.sparkproject.jetty.server.Server: Started @8128ms
+21/10/10 19:36:19 INFO org.sparkproject.jetty.server.AbstractConnector: Started ServerConnector@19edc546{HTTP/1.1, (http/1.1)}{0.0.0.0:45647}
+21/10/10 19:36:20 INFO org.apache.hadoop.yarn.client.RMProxy: Connecting to ResourceManager at cluster-0ee9-m/10.128.0.54:8032
+21/10/10 19:36:20 INFO org.apache.hadoop.yarn.client.AHSProxy: Connecting to Application History server at cluster-0ee9-m/10.128.0.54:10200
+21/10/10 19:36:21 INFO org.apache.hadoop.conf.Configuration: resource-types.xml not found
+21/10/10 19:36:21 INFO org.apache.hadoop.yarn.util.resource.ResourceUtils: Unable to find 'resource-types.xml'.
+21/10/10 19:36:23 INFO org.apache.hadoop.yarn.client.api.impl.YarnClientImpl: Submitted application application_1633894469109_0001
+21/10/10 19:36:24 INFO org.apache.hadoop.yarn.client.RMProxy: Connecting to ResourceManager at cluster-0ee9-m/10.128.0.54:8030
+21/10/10 19:36:26 INFO com.google.cloud.hadoop.repackaged.gcs.com.google.cloud.hadoop.gcsio.GoogleCloudStorageImpl: Ignoring exception of type GoogleJsonResponseException; verified object already exists with desired state.
+Get the top 20,000 words
+21/10/10 19:36:27 INFO org.apache.hadoop.mapred.FileInputFormat: Total input files to process : 1
+21/10/10 19:38:45 INFO org.apache.hadoop.mapred.FileInputFormat: Total input files to process : 1
+ -------SVN total Read time in sec :  138.08575630187988
+----------- SVN total Model testing and training time in sec :  976.6605532169342
+21/10/10 19:56:56 WARN org.apache.spark.scheduler.cluster.YarnSchedulerBackend$YarnSchedulerEndpoint: Requesting driver to remove executor 4 for reason Container marked as failed: container_1633894469109_0001_01_000004 on host: cluster-0ee9-w-0.us-central1-b.c.peerless-haiku-325613.internal. Exit status: -100. Diagnostics: Container released on a *lost* node.
+21/10/10 19:56:56 WARN org.apache.spark.scheduler.cluster.YarnSchedulerBackend$YarnSchedulerEndpoint: Requesting driver to remove executor 1 for reason Container marked as failed: container_1633894469109_0001_01_000001 on host: cluster-0ee9-w-0.us-central1-b.c.peerless-haiku-325613.internal. Exit status: -100. Diagnostics: Container released on a *lost* node.
+21/10/10 19:56:56 ERROR org.apache.spark.scheduler.cluster.YarnScheduler: Lost executor 4 on cluster-0ee9-w-0.us-central1-b.c.peerless-haiku-325613.internal: Container marked as failed: container_1633894469109_0001_01_000004 on host: cluster-0ee9-w-0.us-central1-b.c.peerless-haiku-325613.internal. Exit status: -100. Diagnostics: Container released on a *lost* node.
+21/10/10 19:56:56 ERROR org.apache.spark.scheduler.cluster.YarnScheduler: Lost executor 1 on cluster-0ee9-w-0.us-central1-b.c.peerless-haiku-325613.internal: Container marked as failed: container_1633894469109_0001_01_000001 on host: cluster-0ee9-w-0.us-central1-b.c.peerless-haiku-325613.internal. Exit status: -100. Diagnostics: Container released on a *lost* node.
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_8 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_56_4 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_56_13 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_29_0 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_56_10 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_56_20 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_51_19 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_0 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_32_1 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_0 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_20 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_51_8 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_4 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_13 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_29_1 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_10 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_31_0 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_4 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_56_19 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_10 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_31_1 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_8 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_19 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_4 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_51_10 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_56_8 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_51_13 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_30_1 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_19_18 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_10_7 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_51_0 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_8 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_20_20 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_20 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_0 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_30_0 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_32_0 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_19 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_10 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_20_13 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_13 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_19 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_20_18 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_51_4 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_19_13 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_13 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_51_20 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_56_0 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_20 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_10_3 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_19_20 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_18 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_20_19 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_9 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_19_10 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_3 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_18 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_18 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_11 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_10_4 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_51_7 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_51_17 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_17 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_19_12 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_20_10 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_19_17 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_51_18 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_56_3 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_51_3 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_19_4 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_3 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_11 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_7 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_56_17 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_20_17 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_7 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_56_18 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_9 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_51_11 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_20_12 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_9 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_19_19 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_20_4 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_17 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_20_0 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_27_11 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_26_3 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_56_7 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_10_0 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_17 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_56_11 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_19_0 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_51_9 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_25_7 !
+21/10/10 19:56:56 WARN org.apache.spark.storage.BlockManagerMasterEndpoint: No more replicas available for rdd_56_9 !
+tp= 0
+fp= 0
+fn= 377
+tn= 18347
+----------- Confusion matrix SVN calcuation time in sec :  290.30811977386475
+ -----SVN  F1 Score----
+F1 : 0.0
+ ---- total time SVN in sec : 1405.054556131363
+21/10/10 19:59:52 INFO org.sparkproject.jetty.server.AbstractConnector: Stopped Spark@19edc546{HTTP/1.1, (http/1.1)}{0.0.0.0:0}
+end
